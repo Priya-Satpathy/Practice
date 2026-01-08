@@ -36,7 +36,30 @@ const Cart = () => {
           }
         })}
       </div>
-   
+
+          <div className='cart-bottom'>
+            <div className='cart-total'>
+              <h2>Cart Total</h2>
+              <div>
+                <div className='cart-total-details'>
+                  <p>Subtotal</p>
+                  <p>{0}</p>
+                </div>
+                <hr />
+                <div className='cart-total-details'>
+                  <p>Total</p>
+                  <p>{0}</p>
+                </div>
+                  <hr />
+                 <div className='cart-total-details'>
+                  <p>Total</p>
+                  <p>{0}</p>
+                </div>
+               
+              </div>
+              <button>PROCEED TO CHECKOUT</button>
+            </div>
+          </div>
     </div>
   )
 }
