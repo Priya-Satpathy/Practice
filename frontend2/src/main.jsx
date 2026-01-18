@@ -4,11 +4,12 @@ import { BrowserRouter } from 'react-router-dom'
 
 import App from './App.jsx'
 import './index.css'
+import StoreContextProvider from '../../frontend2/src/Context/StoreContext.jsx'
 
 createRoot(document.getElementById('root')).render(
 
-    <BrowserRouter>
+   <StoreContextProvider>
       <App />
-    </BrowserRouter>
+    </StoreContextProvider>
 
 )
