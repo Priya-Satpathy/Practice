@@ -7,9 +7,11 @@ import './index.css'
 import StoreContextProvider from '../../frontend2/src/Context/StoreContext.jsx'
 
 createRoot(document.getElementById('root')).render(
-
-   <StoreContextProvider>
+   <BrowserRouter>
+    <StoreContextProvider>
       <App />
     </StoreContextProvider>
+    </BrowserRouter>
+  
 
 )
