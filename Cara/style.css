@@ -215,3 +215,34 @@ p{
     bottom: 20px;
     right: 10px;
 }
+.section-m1{
+    margin: 40px 0;
+}
+#banner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url("img/banner/b2.jpg");
+    width: 100%;
+    height: 40vh;
+    background-size: cover;
+    background-position: center;
+}
+#banner h4{
+    color: #fff;
+    font-size: 14px;
+}
+#banner h2{
+    color: #fff;
+    font-size: 30px;
+    padding: 10px 0;
+}
+#banner h2 span{
+    color: #e8f6ea;
+}
+#banner button:hover{
+    background: #088178;
+    color: #fff;
+}
