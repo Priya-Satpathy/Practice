@@ -242,6 +242,20 @@ p{
 #banner h2 span{
     color: #e8f6ea;
 }
+button.normal{
+    color: #000;
+    background: #088178;
+    background-color: #fff;
+    padding: 15px 30px;
+    font-size: 14px;
+    font-weight: 600;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    outline: none;
+    transition: 0.2s;
+
+}
 #banner button:hover{
     background: #088178;
     color: #fff;
