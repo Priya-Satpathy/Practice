@@ -301,8 +301,6 @@ button.normal{
       
 }
 button.white{
-    
-   
     background-color:transparent;
     padding: 11px 18px;
     font-size: 14px;
@@ -312,4 +310,27 @@ button.white{
     cursor: pointer;
     outline: none;
     transition: 0.2s;
+}
+#banner3 .banner-box{
+     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-image: url("img/banner/b7.jpg");
+    min-width:  30%;
+    height: 30vh;
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+#banner3 h2{
+     color: #fff;
+    font-size: 22px;
+    font-weight: 900;
+}
+#banner3 h2{
+     color: #ec544e;
+    font-size: 15px;
+    font-weight: 800;
 }
