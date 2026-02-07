@@ -279,3 +279,52 @@ button.normal{
     color: #fff;
     padding: 15px;
 }
+button.white{
+    background-color: transparent;
+    border-radius: 4px;
+    padding: 11px 18px;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    border: 1px solid #cce7d0;
+    outline: none;
+    transition: 0.3s;
+}
+#sm-banner button:hover{
+    background: #088178;
+}
+#banner3{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0 80px;
+}
+#banner3 .banner-box{
+     display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    background-image: url("img/banner/b7.jpg");
+    min-width: 30%;
+    height: 30vh;
+     background-size: cover;
+    background-position: center;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+#banner3 .banner-box2{
+    background-image: url("img/banner/b4.jpg");
+}
+#banner3 .banner-box3{
+    background-image: url("img/banner/b18.jpg");
+}
+#banner3 h2{
+     color: #fff;
+    font-size: 22px;
+    font-weight: 900;
+}
+#banner3 h3{
+     color: #ec544e;
+    font-size: 15px;
+    font-weight: 800;
+}
