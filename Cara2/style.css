@@ -141,6 +141,12 @@ p{
     text-align: center;
 
 }
+#product1 .pro-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    flex-wrap: wrap;
+}
 #product1 .pro{
     width: 23%;
     min-width: 250px;
@@ -148,6 +154,8 @@ p{
     border: 1px solid #cce7d0;
     border-radius: 25px;
     box-shadow: 20px 20px 30px rgba(0,0,0,0.02);
+    position: relative;
+    margin: 15px 0;
 }
 #product1 .pro img{
     width: 100%;
@@ -174,4 +182,100 @@ p{
     color: #088178;
     font-size: 15px;
     font-weight: 700;
+}
+#product1 .pro .cart{
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50px;
+    border: 1px solid #cce7d0;
+    position: absolute;
+    color: #088178;
+    background: #e8f6ea;
+    font-size: 16px;
+    font-weight: 500;
+    bottom: 20px;
+    right: 10px;
+
+}
+.section-m1{
+    margin: 40px 0;
+}
+#banner{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url("img/banner/b2.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 40vh;
+    width: 100%;
+}
+#banner h4{
+    font-size: 16px;
+    color: #fff;
+}
+#banner h2{
+    font-size:30px;
+    padding: 10px;
+    color: #fff;
+}
+#banner h2 span{
+    color: #ef3636;
+}
+#banner button:hover{
+    background: #088178;
+}
+button.normal{
+    color: #222;
+    background: #088178;
+    background-color: #fff;
+    border-radius: 4px;
+    padding: 15px 30px;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    transition: 0.3s;
+}
+#sm-banner{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+#sm-banner .banner-box{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    background-image: url("img/banner/b17.jpg");
+    width: 580px;
+    height: 40vh;
+     background-size: cover;
+    background-position: center;
+    padding: 30px;
+}
+#sm-banner .banner-box2{
+    background-image: url("img/banner/b10.jpg");
+}
+#sm-banner h4{
+    font-size:20px;
+    font-weight: 600;
+    color: #fff;
+}
+
+#sm-banner h2{
+    font-size:28px;
+    font-weight: 800;
+    color: #fff;
+}
+
+#sm-banner span{
+    font-size:14px;
+    font-weight: 500;
+    color: #fff;
+    padding: 15px;
 }
