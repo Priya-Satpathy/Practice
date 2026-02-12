@@ -455,11 +455,28 @@ footer .copyright{
   align-items: center;
   padding: 14px;
 }
+#page-header h2,
+#page-header p{
+  color: #fff;
+}
+#pagination{
+    text-align: center;
+}
+#pagination a{
+     text-decoration: none;
+  background-color: #088178;
+  padding: 15px 20px;
+  border-radius:4px;
+  color: #fff;
+  font-weight: 600;
+}
 
 
-
-
-
+/* single page */
+#prodetails{
+  display: flex;
+  margin-top: 20px ;
+}
 
 
 
