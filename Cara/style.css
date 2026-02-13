@@ -79,6 +79,13 @@ p{
     bottom: -4px;
     left: 20px;
 }
+#mobile{
+  display: none;
+  align-items: center;
+}
+#close{
+  display: none;
+}
 #hero{
     background-image: url("img/hero4.png");
     height: 90vh;
