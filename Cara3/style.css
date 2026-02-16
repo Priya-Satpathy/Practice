@@ -216,3 +216,22 @@ body {
   bottom: 20px;
   right: 10px;
 }
+.section-m1{
+  margin: 40px 80px;
+}
+#banner{
+  background-image: url("img/banner/b2.jpg");
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+     background-size: cover;
+    background-position: center;
+    height: 40vh;
+    width: 100%;
+  
+}
+#banner h4{
+  color: #fff;
+  font-size: 12px;
+  font-weight: 500;
+}
