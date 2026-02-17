@@ -217,7 +217,7 @@ body {
   right: 10px;
 }
 .section-m1{
-  margin: 40px 80px;
+  margin: 40px 0;
 }
 #banner{
   background-image: url("img/banner/b2.jpg");
@@ -243,4 +243,20 @@ body {
 }
 #banner h2 span{
   color: #ef3636;
+}
+button.normal{
+  font-size: 14px;
+    font-weight: 600;
+    padding: 15px 30px;
+    color: #000;
+    background-color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    transition: 0.2s;
+
+}
+button:hover{
+  background: #088178;
 }
