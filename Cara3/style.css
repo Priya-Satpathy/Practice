@@ -260,3 +260,50 @@ button.normal{
 button:hover{
   background: #088178;
 }
+#sm-banner{
+  display: flex;
+  align-items: self-start;
+  justify-content: space-between;
+}
+#sm-banner .banner-box{
+      display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-image: url("img/banner/b17.jpg");
+    min-width: 580px;
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+    padding: 30px;
+}
+#sm-banner .banner-box2{
+  background-image: url("img/banner/b10.jpg");
+}
+#sm-banner h2{
+    font-size:28px;
+    font-weight: 800;
+    color: #fff;
+}
+
+#sm-banner h2 span{
+    font-size:14px;
+    font-weight: 500;
+    color: #fff;
+    padding: 15px;
+}
+button.white{
+   background-color: transparent;
+    border-radius: 4px;
+    padding: 11px 18px;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    color: #fff;
+    border: 1px solid #cce7d0;
+    outline: none;
+    transition: 0.3s;
+}
+button:hover{
+  background: #088178;
+}
