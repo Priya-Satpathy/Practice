@@ -224,14 +224,23 @@ body {
   display: flex;
   align-items: center;
   flex-direction: column;
-     background-size: cover;
-    background-position: center;
-    height: 40vh;
-    width: 100%;
+  justify-content: center;
+  background-size: cover;
+  background-position: center;
+  height: 50vh;
+  width: 100%;
   
 }
 #banner h4{
   color: #fff;
   font-size: 12px;
   font-weight: 500;
+}
+#banner h2{
+  color: #fff;
+  font-size: 30px;
+  font-weight: 600;
+}
+#banner h2 span{
+  color: #ef3636;
 }
