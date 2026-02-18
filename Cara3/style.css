@@ -307,3 +307,12 @@ button.white{
 button:hover{
   background: #088178;
 }
+
+#newsletter{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  background-image: url("img/banner/b14.png");
+  background-repeat: no-repeat;
+}
