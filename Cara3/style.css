@@ -307,7 +307,13 @@ button.white{
 button:hover{
   background: #088178;
 }
-
+#banner3{
+     display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0 80px;
+    
+}
 #newsletter{
   display: flex;
   justify-content: space-between;
@@ -317,4 +323,9 @@ button:hover{
   background-repeat: no-repeat;
   background-position: 20% 30%;
   background-color: #041e42;
+}
+#newsletter h4{
+  color: #fff;
+  font-size: 22px;
+  font-weight: 700;
 }
