@@ -315,19 +315,24 @@ button:hover{
     
 }
 #banner3 .banner-box{
-     display: flex;
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    background-image: url("img/banner/b7.jpg");
-    min-width:  30%;
-    height: 30vh;
+    background-image: url("img/banner/b17.jpg");
+    min-width: 580px;
+    height: 50vh;
     background-size: cover;
     background-position: center;
-    padding: 20px;
+     padding: 20px;
     margin-bottom: 30px;
 }
-
+#banner3 .banner-box2{
+    background-image: url("img/banner/b4.jpg");
+}
+#banner3 .banner-box3{
+    background-image: url("img/banner/b18.jpg");
+}
 #newsletter{
   display: flex;
   justify-content: space-between;
@@ -338,8 +343,13 @@ button:hover{
   background-position: 20% 30%;
   background-color: #041e42;
 }
-#newsletter h4{
+#banner h2{
   color: #fff;
   font-size: 22px;
   font-weight: 700;
+}
+#banner h3{
+  color: #ec544e;;
+  font-size: 15px;
+  font-weight: 800;
 }
