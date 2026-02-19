@@ -505,7 +505,19 @@ footer .copyright{
     top: 4px;
     right: -60px;
 }
+#blog .blog-details a:hover{
+  color: #088178;
+}
+#blog .blog-details a:hover::after{
+  background-color: #088178;
+}
+#blog .blog-box h1{
+  position: absolute;
+  top: -40px;
+  left: 0;
+  font-size: 70px;
 
+}
 @media(max-width:799px){
     .section-p1{
         padding: 40px 40px;
