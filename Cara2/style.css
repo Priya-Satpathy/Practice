@@ -486,9 +486,17 @@ footer .copyright{
     object-fit: cover;
 }
 #blog .blog-details{
-  width: 50%;
-  
+  width: 50%;  
 }
+#blog .blog-details a{
+    text-decoration: none;
+    font-size: 11px;
+    color: #000;
+    font-weight: 700;
+    position: relative;
+    transition: 0.3s;
+}
+
 @media(max-width:799px){
     .section-p1{
         padding: 40px 40px;
