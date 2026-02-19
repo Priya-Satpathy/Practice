@@ -333,16 +333,7 @@ button:hover{
 #banner3 .banner-box3{
     background-image: url("img/banner/b18.jpg");
 }
-#newsletter{
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  align-items: center;
-  background-image: url("img/banner/b14.png");
-  background-repeat: no-repeat;
-  background-position: 20% 30%;
-  background-color: #041e42;
-}
+
 #banner h2{
   color: #fff;
   font-size: 22px;
