@@ -344,3 +344,13 @@ button:hover{
   font-size: 15px;
   font-weight: 800;
 }
+#newsletter{
+   display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-image: url("img/banner/b14.png");
+    flex-wrap: wrap;
+    background-position: 20% 30%;
+    background-color: #041e42;
+    background-repeat: no-repeat;
+}
