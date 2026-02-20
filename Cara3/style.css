@@ -353,4 +353,18 @@ button:hover{
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background-image: url("img/banner/b14.png");
+  background-position: 20% 30%;
+  background-color: #041e42;
+  background-repeat: no-repeat;
+}
+#newsletter h4{
+  color: #fff;
+  font-size: 22px;
+  font-weight: 700;
+}
+#newsletter  p{
+  color: #818ea0;
+  font-size: 18px;
+  font-weight: 600;
 }
