@@ -292,6 +292,12 @@ button:hover{
     color: #fff;
     padding: 15px;
 }
+#sm-banner span{
+    font-size:14px;
+    font-weight: 500;
+    color: #fff;
+    padding: 15px;
+}
 button.white{
    background-color: transparent;
     border-radius: 4px;
@@ -307,55 +313,6 @@ button.white{
 button:hover{
   background: #088178;
 }
-#banner3{
-     display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    padding: 0 80px;
-    
-}
 #banner3 .banner-box{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    background-image: url("img/banner/b17.jpg");
-    min-width: 580px;
-    height: 50vh;
-    background-size: cover;
-    background-position: center;
-     padding: 20px;
-    margin-bottom: 30px;
-}
-#banner3 .banner-box2{
-    background-image: url("img/banner/b4.jpg");
-}
-#banner3 .banner-box3{
-    background-image: url("img/banner/b18.jpg");
-}
 
-#banner h2{
-  color: #fff;
-  font-size: 22px;
-  font-weight: 700;
-}
-#banner h3{
-  color: #ec544e;;
-  font-size: 15px;
-  font-weight: 800;
-}
-#newsletter{
-   display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background-image: url("img/banner/b14.png");
-    flex-wrap: wrap;
-    background-position: 20% 30%;
-    background-color: #041e42;
-    background-repeat: no-repeat;
-}
-#newsletter h4{
-  font-size: 22px;
-  font-weight: 700;
-  color: #fff;
 }
