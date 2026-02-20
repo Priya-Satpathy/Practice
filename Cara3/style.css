@@ -266,7 +266,7 @@ button:hover{
   justify-content: space-between;
 }
 #sm-banner .banner-box{
-      display: flex;
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
@@ -313,6 +313,26 @@ button.white{
 button:hover{
   background: #088178;
 }
+#banner3{
+  display: flex;
+  
+}
 #banner3 .banner-box{
-
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-image: url("img/banner/b7.jpg");
+    min-width: 30%;
+    height: 30vh;
+    background-size: cover;
+    background-position: center;
+    padding: 30px;
+    margin-bottom: 30px;
+}
+#banner3 .banner-box2{
+  background-image: url("img/banner/b4.jpg");
+}
+#banner3 .banner-box3{
+  background-image: url("img/banner/b18.jpg");
 }
