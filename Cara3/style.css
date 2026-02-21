@@ -399,3 +399,6 @@ footer{
   justify-content: space-between;
   flex-wrap: wrap;
 }
+footer .col{
+  display: flex;
+}
