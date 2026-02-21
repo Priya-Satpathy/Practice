@@ -394,3 +394,6 @@ button:hover{
   background-color: #088178;
   color: #fff;
 }
+footer{
+  display: flex;
+}
