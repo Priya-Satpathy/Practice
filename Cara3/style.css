@@ -408,3 +408,8 @@ footer .col{
 footer .follow{
   margin-bottom: 20px;
 }
+footer .follow i{
+    color: #465b52;
+    padding-right: 4px;
+    cursor: pointer;
+}
