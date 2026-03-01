@@ -508,7 +508,9 @@ footer .copyright {
 
 #page-header h2,
 #page-header p{
-  color: #fff;
-  
+  color: #fff; 
 
+}
+#pagination{
+    text-align: center;
 }
